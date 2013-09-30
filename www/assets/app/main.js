@@ -17,6 +17,7 @@ Demo.config(
 				"/home",
 				{
 					action: "splash.home"
+					templateUrl: "assets/app/views/layouts/splash.htm"
 				}
 			)
 			.when(
