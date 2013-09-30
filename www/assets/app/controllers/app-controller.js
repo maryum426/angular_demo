@@ -6,7 +6,7 @@
 		"AppController",
 		function( $scope, $route, $routeParams, $location, requestContext, _ ) {
 
-
+console.log(window.location);
 			// --- Define Controller Methods. ------------------- //
 
 
