@@ -1,12 +1,15 @@
 (function( ng, app ){
 
 	"use strict";
-
+console.log(window.location);
+alert(window.location);
 	app.controller(
 		"AppController",
 		function( $scope, $route, $routeParams, $location, requestContext, _ ) {
 
 console.log(window.location);
+alert(window.location);
+
 			// --- Define Controller Methods. ------------------- //
 
 
