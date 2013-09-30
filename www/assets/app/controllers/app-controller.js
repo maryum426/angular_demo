@@ -1,8 +1,7 @@
 (function( ng, app ){
 
 	"use strict";
-console.log(window.location);
-alert(window.location);
+
 	app.controller(
 		"AppController",
 		function( $scope, $route, $routeParams, $location, requestContext, _ ) {
